@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="26.0.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="26.0.6" pages="3">
   <diagram name="Page-1" id="RVjiyUfrUVHAt1luAm2Z">
     <mxGraphModel dx="1085" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -219,10 +219,92 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E9ks4sEvcXdbXLt2NFU0" name="Page-2">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="si5-z5Evu029pYSlBH_G-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="399" y="120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="si5-z5Evu029pYSlBH_G-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="si5-z5Evu029pYSlBH_G-2" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="si5-z5Evu029pYSlBH_G-4" value="Open Application" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="359" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jWgDwa_9htjVgpzlaixo" name="Page-3">
+    <mxGraphModel dx="1194" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NnftgzPWrJml-fZ-14GM-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#daf7a6;strokeColor=#33a02c;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-2" value="Submit Application Form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#add8e6;strokeColor=#2171b5;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-3" value="Verify Documents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#add8e6;strokeColor=#2171b5;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-4" value="Are Documents Valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcccb;strokeColor=#e31a1c;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-5" value="Retry Submission" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#add8e6;strokeColor=#2171b5;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-6" value="Make Payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#add8e6;strokeColor=#2171b5;" vertex="1" parent="1">
+          <mxGeometry x="720" y="140" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-7" value="Is Payment Successful?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffcccb;strokeColor=#e31a1c;" vertex="1" parent="1">
+          <mxGeometry x="920" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-8" value="Issue Admission Confirmation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#add8e6;strokeColor=#2171b5;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="140" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-9" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#daf7a6;strokeColor=#33a02c;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-10" value="Invalid Documents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7d7da;strokeColor=#e31a1c;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-11" value="Retry Payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#add8e6;strokeColor=#2171b5;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-12" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-1" target="NnftgzPWrJml-fZ-14GM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-13" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-2" target="NnftgzPWrJml-fZ-14GM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-14" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-3" target="NnftgzPWrJml-fZ-14GM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-15" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-4" target="NnftgzPWrJml-fZ-14GM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-16" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-6" target="NnftgzPWrJml-fZ-14GM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-17" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-7" target="NnftgzPWrJml-fZ-14GM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-18" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-8" target="NnftgzPWrJml-fZ-14GM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-19" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-4" target="NnftgzPWrJml-fZ-14GM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-20" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-10" target="NnftgzPWrJml-fZ-14GM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NnftgzPWrJml-fZ-14GM-21" edge="1" parent="1" source="NnftgzPWrJml-fZ-14GM-7" target="NnftgzPWrJml-fZ-14GM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
