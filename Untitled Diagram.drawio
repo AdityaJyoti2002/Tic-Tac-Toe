@@ -860,6 +860,12 @@
         <mxCell id="uivl_E51rOWrW1FKPl-h-32" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:765,&amp;quot;end&amp;quot;:1366},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:913,&amp;quot;end&amp;quot;:970}]&quot;&gt;&lt;code&gt;&lt;span&gt;Student resubmits assignment&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="166" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uivl_E51rOWrW1FKPl-h-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uivl_E51rOWrW1FKPl-h-7" target="uivl_E51rOWrW1FKPl-h-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uivl_E51rOWrW1FKPl-h-36" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:765,&amp;quot;end&amp;quot;:1366},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1045,&amp;quot;end&amp;quot;:1107}]&quot;&gt;&lt;code&gt;&lt;span&gt;Instructor starts reviewing&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
